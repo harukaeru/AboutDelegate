@@ -19,7 +19,7 @@ public class GenericTest {
 
 class Gen<T> {
 	//普通はここはprivateにする。
-	public T tObj;
+	private T tObj;
 
 	public Gen(T tObj){
 		this.tObj = tObj;
