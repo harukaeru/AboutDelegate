@@ -7,7 +7,7 @@ public class GenericTest {
 		Gen<string> stringGen = new Gen<string>("hoge");
 		Gen<int> intGen = new Gen<int>(2);
 
-		//型名が表示される。普通はprivateにする。
+		//型名が表示される。
 		Console.WriteLine(stringGen);
 		Console.WriteLine(intGen);
 		Console.WriteLine("---------------");
